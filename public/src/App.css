@@ -1,0 +1,51 @@
+
+.section {
+  padding: 20px;
+  /* margin-bottom: 50px; */
+  border: 20px solid black;
+  border-bottom-width: 50px;
+}
+
+.question {
+  padding: 10px 50px 20px 50px;
+  text-align: left;
+  font-size: 24px;
+}
+
+.tickers {
+  padding: 5px;
+}
+
+.ticker {
+  background: #d2daf8;
+  padding: 10px 25px;
+  text-align: center;
+  margin: 2px;
+  border-width: 0;
+  border-bottom-width: 6px;
+  border-color: white;
+}
+
+.ticker-header {
+  margin-bottom: 8px;
+}
+
+.ticker:hover {
+  border-color: #363348;
+}
+
+.tickers-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ticker-details {
+  width: 300px;
+  margin: 8px;
+}
+
+.ticker-details div {
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
